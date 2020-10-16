@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{16DDF8A9-2AD2-46B8-BE7B-9257BF9B0757}</ProjectGuid>
+    <RootNamespace>Factorio</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedCircuit.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AssemblingMachine.cpp" />
+    <ClCompile Include="BasicInserter.cpp" />
+    <ClCompile Include="BasicMiningDrill.cpp" />
+    <ClCompile Include="BasicSplitter.cpp" />
+    <ClCompile Include="BasicTransportBelt.cpp" />
+    <ClCompile Include="BurnerInserter.cpp" />
+    <ClCompile Include="BurnerMiningDrill.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ButtonFunction.cpp" />
+    <ClCompile Include="Coal.cpp" />
+    <ClCompile Include="CopperCable.cpp" />
+    <ClCompile Include="CopperOre.cpp" />
+    <ClCompile Include="CraftItemInfo.cpp" />
+    <ClCompile Include="ElectricCircuit.cpp" />
+    <ClCompile Include="ElectricFurnace.cpp" />
+    <ClCompile Include="Ending.cpp" />
+    <ClCompile Include="GameNode.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageManager.cpp" />
+    <ClCompile Include="InGameScene.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Iron.cpp" />
+    <ClCompile Include="IronGearWheel.cpp" />
+    <ClCompile Include="LongHandedInserter.cpp" />
+    <ClCompile Include="ProductCopperPlate.cpp" />
+    <ClCompile Include="ProductIronPlate.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="LoadingScene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ProductCoal.cpp" />
+    <ClCompile Include="ProductCopper.cpp" />
+    <ClCompile Include="ProductIron.cpp" />
+    <ClCompile Include="ProductStone.cpp" />
+    <ClCompile Include="Rocket.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SmallElectricPole.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SteamEngine.cpp" />
+    <ClCompile Include="SteelBox.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="StoneFernace.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="Tutorial.cpp" />
+    <ClCompile Include="WoodBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedCircuit.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AssemblingMachine.h" />
+    <ClInclude Include="BasicInserter.h" />
+    <ClInclude Include="BasicMiningDrill.h" />
+    <ClInclude Include="BasicSplitter.h" />
+    <ClInclude Include="BasicTransportBelt.h" />
+    <ClInclude Include="BurnerInserter.h" />
+    <ClInclude Include="BurnerMiningDrill.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="ButtonFunction.h" />
+    <ClInclude Include="Coal.h" />
+    <ClInclude Include="CopperCable.h" />
+    <ClInclude Include="CopperOre.h" />
+    <ClInclude Include="CraftItemInfo.h" />
+    <ClInclude Include="ElectricCircuit.h" />
+    <ClInclude Include="ElectricFurnace.h" />
+    <ClInclude Include="Ending.h" />
+    <ClInclude Include="GameNode.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageManager.h" />
+    <ClInclude Include="InGameScene.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Iron.h" />
+    <ClInclude Include="IronGearWheel.h" />
+    <ClInclude Include="LongHandedInserter.h" />
+    <ClInclude Include="ProductCopperPlate.h" />
+    <ClInclude Include="ProductIronPlate.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="LoadingScene.h" />
+    <ClInclude Include="macroFunction.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ProductCoal.h" />
+    <ClInclude Include="ProductCopper.h" />
+    <ClInclude Include="ProductIron.h" />
+    <ClInclude Include="ProductStone.h" />
+    <ClInclude Include="Rocket.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SingletonBase.h" />
+    <ClInclude Include="SmallElectricPole.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SteamEngine.h" />
+    <ClInclude Include="SteelBox.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="StoneFernace.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Tutorial.h" />
+    <ClInclude Include="WoodBox.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

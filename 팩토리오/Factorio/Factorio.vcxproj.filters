@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DFrameWork">
+      <UniqueIdentifier>{e59b2bb3-bcec-41df-ab0b-0d2076319454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Animation">
+      <UniqueIdentifier>{b7bbd2de-4cce-4c11-b4ec-fa5c1ee0575a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Button">
+      <UniqueIdentifier>{d13c7537-2a7b-4447-a97d-fb08894e51f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Image">
+      <UniqueIdentifier>{d6033a15-e600-4d54-9636-0fa48d12cd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Manager">
+      <UniqueIdentifier>{952ceb88-d457-40b3-ab9b-1173d84deb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\Timer">
+      <UniqueIdentifier>{5e334e7b-3612-4616-a2a8-b3120e296079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{2f9f2c0c-67fb-4a40-baad-4133fe51ddb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Alien">
+      <UniqueIdentifier>{16c99736-fef6-4ccf-aebf-e4c169c2db64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Player">
+      <UniqueIdentifier>{86234eb4-5433-4763-a104-ef90ee3e708a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object">
+      <UniqueIdentifier>{1e0938ff-e4ad-47e4-b43d-177adccecf9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\UI">
+      <UniqueIdentifier>{82fe3d10-237d-4029-a047-f9838a6a3db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\GameNode">
+      <UniqueIdentifier>{e6c73fad-d62b-479c-b6be-731f0ce008aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Resouce">
+      <UniqueIdentifier>{e786feba-5753-4685-a427-075561b7cebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Factorytool">
+      <UniqueIdentifier>{7266302d-c9dc-4e19-971f-6294d03251d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{7427f906-b5a5-438c-9777-dbece9ea2471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\product">
+      <UniqueIdentifier>{103bf678-73ea-4eda-ab7c-aa74d211c88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Tutorial">
+      <UniqueIdentifier>{eba08b6d-4133-490d-90be-c1c2a41a0999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object\Map">
+      <UniqueIdentifier>{b16e6e3a-81d4-4d91-baee-c26aff402c76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>2DFrameWork\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonFunction.cpp">
+      <Filter>2DFrameWork\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2DFrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2DFrameWork\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>2DFrameWork\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>MainGame\Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Coal.cpp">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClCompile>
+    <ClCompile Include="Iron.cpp">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClCompile>
+    <ClCompile Include="CopperOre.cpp">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnerInserter.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneFernace.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTransportBelt.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="BurnerMiningDrill.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductCoal.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductIron.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductCopper.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductIronPlate.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductCopperPlate.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="CraftItemInfo.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallElectricPole.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamEngine.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicInserter.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMiningDrill.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricFurnace.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>MainGame\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSplitter.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="WoodBox.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblingMachine.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="IronGearWheel.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricCircuit.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="CopperCable.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedCircuit.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="LongHandedInserter.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductStone.cpp">
+      <Filter>MainGame\Object\product</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SteelBox.cpp">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>2DFrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>2DFrameWork\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonFunction.h">
+      <Filter>2DFrameWork\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2DFrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2DFrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="macroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2DFrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2DFrameWork\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>2DFrameWork\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>MainGame\Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Coal.h">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="Iron.h">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="CopperOre.h">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnerInserter.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneFernace.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTransportBelt.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="BurnerMiningDrill.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductCoal.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductCopper.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductIron.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductIronPlate.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductCopperPlate.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="CraftItemInfo.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>MainGame\Object\Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallElectricPole.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamEngine.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicInserter.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMiningDrill.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricFurnace.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>MainGame\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="WoodBox.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicSplitter.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="AssemblingMachine.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="IronGearWheel.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricCircuit.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="CopperCable.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedCircuit.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="LongHandedInserter.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductStone.h">
+      <Filter>MainGame\Object\product</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SteelBox.h">
+      <Filter>MainGame\Object\Factorytool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

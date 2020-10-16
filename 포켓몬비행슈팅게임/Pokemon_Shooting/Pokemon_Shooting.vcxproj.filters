@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{6bc10030-30b1-44bc-a638-d4f4dc1a3d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Missile">
+      <UniqueIdentifier>{fc9b9cfb-777d-4b36-bb28-a856a811f4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy">
+      <UniqueIdentifier>{3ae4b1e2-1f79-4264-aab8-5b5c031dbed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy\Boss">
+      <UniqueIdentifier>{1886e1dd-ed0d-4bce-9c99-c74370a7e1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy\Enemy">
+      <UniqueIdentifier>{6e5ae56e-4136-4869-a633-f166775f5117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BackGround">
+      <UniqueIdentifier>{19cd83f5-ac9d-49b7-97d9-7f9d21c7711d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\UI">
+      <UniqueIdentifier>{0e425b83-edf5-4947-b198-513e7c2a8a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Battle">
+      <UniqueIdentifier>{9a004cd2-b49d-48d4-8a9d-ee2b42c2e01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Stage">
+      <UniqueIdentifier>{7b886bba-9030-41a8-9109-5e131dbed01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\PlayerCharacter">
+      <UniqueIdentifier>{9b4091b1-f3f2-4496-9b32-de688955e245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\PlayerCharacter\Ash">
+      <UniqueIdentifier>{d1052113-9b52-4830-abe6-4718c4685df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\2DFrameWork">
+      <UniqueIdentifier>{8a7eb080-71ea-4a41-bee0-6a8440d1b417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\2DFrameWork\Mnager">
+      <UniqueIdentifier>{4b066410-d9ac-4385-8ebb-29a8a449e311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\2DFrameWork\Timer">
+      <UniqueIdentifier>{01010fbc-c73b-4aff-8055-9e0660166a66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Lugia.cpp">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="HoOh.cpp">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>MainGame\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>MainGame\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>MainGame\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileManager.cpp">
+      <Filter>MainGame\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>MainGame\2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>MainGame\2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>MainGame\2DFrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>MainGame\2DFrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>MainGame\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Ash.cpp">
+      <Filter>MainGame\PlayerCharacter\Ash</Filter>
+    </ClCompile>
+    <ClCompile Include="Slowpoke.cpp">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulbasaur.cpp">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>MainGame\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBird.cpp">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>MainGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Phantom.cpp">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Golbat.cpp">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="macroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Lugia.h">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="HoOh.h">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>MainGame\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileManager.h">
+      <Filter>MainGame\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>MainGame\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleManager.h">
+      <Filter>MainGame\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>MainGame\2DFrameWork\Mnager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>MainGame\2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>MainGame\2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>MainGame\2DFrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>MainGame\2DFrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>MainGame\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Ash.h">
+      <Filter>MainGame\PlayerCharacter\Ash</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulbasaur.h">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Slowpoke.h">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>MainGame\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBird.h">
+      <Filter>MainGame\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>MainGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Phantom.h">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Golbat.h">
+      <Filter>MainGame\Enemy\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

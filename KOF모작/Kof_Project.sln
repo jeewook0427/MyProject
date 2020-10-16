@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kof_Project", "Kof_Project\Kof_Project.vcxproj", "{FEDABF44-F549-4FC6-81D2-E5F55150CE72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Debug|x64.ActiveCfg = Debug|x64
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Debug|x64.Build.0 = Debug|x64
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Debug|x86.Build.0 = Debug|Win32
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Release|x64.ActiveCfg = Release|x64
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Release|x64.Build.0 = Release|x64
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Release|x86.ActiveCfg = Release|Win32
+		{FEDABF44-F549-4FC6-81D2-E5F55150CE72}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC234646-F72E-40D7-8A0B-DF473EA31995}
+	EndGlobalSection
+EndGlobal
